@@ -1,4 +1,4 @@
-# Vagrant fileis for Ubuntu 18.04 CTF VM
+# Vagrant files for Ubuntu 18.04 CTF VM
 
 * Install Virtualbox
 * Install Vagrant
