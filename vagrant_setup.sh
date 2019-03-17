@@ -14,7 +14,6 @@ sudo apt-get -y install terminator
 
 # install GUI
 sudo apt-get -y install ubuntu-desktop
-sudo apt purge ubuntu-web-launchers
 sudo apt-get -y install virtualbox-guest-dkms
 sudo apt-get -y install virtualbox-guest-utils
 sudo apt-get -y install virtualbox-guest-x11
