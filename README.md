@@ -8,4 +8,4 @@
   binaryninja, sublime text, ghidra
 * _vagrant up_ to install VM
 * Reboot VM after first installation
-user:pwd vagrant:vagrant
+* user:pwd vagrant:vagrant
