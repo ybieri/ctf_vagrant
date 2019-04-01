@@ -112,12 +112,12 @@ sudo apt-get -y install libc6:i386 libc6-dbg:i386 libncurses5:i386 libstdc++6:i3
 
 
 # Install z3 theorem prover
-cd tools
-git clone https://github.com/Z3Prover/z3.git && cd z3
-python scripts/mk_make.py
-cd build
-make
-sudo make install
+#cd tools
+#git clone https://github.com/Z3Prover/z3.git && cd z3
+#python scripts/mk_make.py
+#cd build
+#make
+#sudo make install
 
 
 # Install binary ninja
@@ -133,6 +133,10 @@ mkdir -p /home/vagrant/.config/sublime-text-3/Local
 
 # Install chromium
 sudo apt-get install -y chromium-browser
+
+# Install one_gadget
+sudo apt install ruby-full
+sudo gem install one_gadget
 
 # Add ghidra alias
 echo "alias ghidra='/home/vagrant/tools/ghidra_9.0/ghidraRun'" >> /home/vagrant/.zshrc
