@@ -14,7 +14,6 @@ sudo apt-get -y install terminator
 
 # install GUI
 sudo apt-get -y install ubuntu-desktop
-sudo apt purge ubuntu-web-launchers
 sudo apt-get -y install virtualbox-guest-dkms
 sudo apt-get -y install virtualbox-guest-utils
 sudo apt-get -y install virtualbox-guest-x11
@@ -98,7 +97,7 @@ echo vagrant | sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/maste
 # Install Angr
 cd /home/vagrant/tools
 sudo apt-get -y install python-dev libffi-dev build-essential virtualenvwrapper
-sudo pip -H install virtualenv
+sudo -H pip install virtualenv
 virtualenv angr
 source angr/bin/activate
 pip install angr --upgrade
