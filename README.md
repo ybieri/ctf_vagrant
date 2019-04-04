@@ -2,7 +2,7 @@
 
 * Install Virtualbox
 * Install Vagrant
-* _vagrant plugin install vagrant-vbguest_
+* _vagrant plugin install vagrant-vbguest_ and _vagrant plugin install vagrant-disksize_
 * Clone git repository
 * Adjust _Vagrantfile_ to adjust paths to background, shared folder,
   binaryninja, sublime text, ghidra
